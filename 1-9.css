@@ -61,3 +61,16 @@ footer {
 	height: 50px;
 	background-color: #aaa;
 }
+@media screen and (max-width:768px) {
+	.clearfix {
+		width: 100%;
+	}
+	.main-item {
+		float: none;
+		width: 90%;
+		margin:0 5%;
+	}
+	.main-item:nth-child(2) {
+		margin: 20px 5%;
+	}
+}
